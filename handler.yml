@@ -1,5 +1,5 @@
 --- 
-- hosts: myweb 
+- hosts: 172.31.40.67
   become: yes 
   tasks: 
   - name: install tree 
