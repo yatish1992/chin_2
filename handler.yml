@@ -3,7 +3,7 @@
   become: yes 
   tasks: 
   - include_tasks: yaml.yml
-  - name: create a admin
+  - name: create a folder
     file: 
      path: /home/ubuntu/yatish
      state: directory
