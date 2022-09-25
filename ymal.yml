@@ -1,5 +1,5 @@
 --- 
-  - name: create a yaml 
+  - name: create a files 
     file: 
      path: /home/ubuntu
      state: touch
