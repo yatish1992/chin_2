@@ -5,4 +5,9 @@
   - name: install apache
     apt: 
      name: apache2 
-     state: present
+     state: present 
+
+  - name: install RadHat
+    apt: 
+     name: RedHat 
+     state: present    
