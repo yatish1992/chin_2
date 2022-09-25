@@ -2,7 +2,8 @@
 - hosts: 172.31.40.67
   become: yes 
   tasks: 
-  - name: create a yaml 
+  - include_tasks: yaml.yml
+  - name: create a admin
     file: 
-     path: /home/ubuntu
-     state: touch
+     path: /home/ubuntu/yatish
+     state: directory
