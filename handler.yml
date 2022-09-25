@@ -2,14 +2,7 @@
 - hosts: 172.31.40.67
   become: yes 
   tasks: 
-  - name: install tree 
-    apt: 
-     name: tree 
-     state: present 
-    tags: mytree 
-     
-  - name: install git
-    apt: 
-     name: git 
-     state: present 
-    tags: mygit
+  - name: create a yaml 
+    file: 
+     path: /home/ubuntu
+     state: touch
