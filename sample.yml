@@ -7,7 +7,4 @@
      name: apache2 
      state: present 
 
-  - name: install RadHat
-    apt: 
-     name: RedHat 
-     state: present    
+  
