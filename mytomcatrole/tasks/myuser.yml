@@ -1,0 +1,8 @@
+--- 
+- name: crate tomcat user 
+  user:
+   name: tomcat
+   home: /opt/tomcat
+   shell: /bin/fals
+   state: present
+  
