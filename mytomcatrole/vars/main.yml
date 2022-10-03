@@ -1,4 +1,4 @@
 ---
 # vars file for mytomcatrole
-mysqipasswd: maha123
+mysqlpasswd: maha123
 
